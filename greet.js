@@ -1,5 +1,5 @@
 const getInput = require("./get-input.js");
 
-const str = getInput()
+const userName = getInput();
 
-console.log("Hello" + str +)
+console.log("Hello " + userName + "! You're the best around and no one's gonna get ya down!");
