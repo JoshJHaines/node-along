@@ -6,7 +6,7 @@ const mentalAge = userAge / 2 + 3;
 if (userAge === "--help"){
     console.log("Enter your actual age to find out your mental age.")
 } else {
-    console.log(mentalAge);
+    console.log("You are " + userAge + " years old. So your mental age is " + mentalAge + "!");
 }
 
 
